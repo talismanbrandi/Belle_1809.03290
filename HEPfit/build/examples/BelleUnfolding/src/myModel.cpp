@@ -1,4 +1,4 @@
-/* 
+/*
  * Copyright (C) 2015 HEPfit Collaboration
  * All rights reserved.
  *
@@ -26,143 +26,143 @@ myModel::myModel()
 :   StandardModel()
 {
     /* Define all the parameters here and port them as observables too */
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("NTh1", boost::cref(NTh1)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("NTh2", boost::cref(NTh2)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("NTh3", boost::cref(NTh3)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("NTh4", boost::cref(NTh4)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("NTh5", boost::cref(NTh5)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("NTh6", boost::cref(NTh6)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("NTh7", boost::cref(NTh7)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("NTh8", boost::cref(NTh8)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("NTh9", boost::cref(NTh9)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("NTh10", boost::cref(NTh10)));
-    
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("NTh11", boost::cref(NTh11)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("NTh12", boost::cref(NTh12)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("NTh13", boost::cref(NTh13)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("NTh14", boost::cref(NTh14)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("NTh15", boost::cref(NTh15)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("NTh16", boost::cref(NTh16)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("NTh17", boost::cref(NTh17)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("NTh18", boost::cref(NTh18)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("NTh19", boost::cref(NTh19)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("NTh20", boost::cref(NTh20)));
-    
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("NTh21", boost::cref(NTh21)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("NTh22", boost::cref(NTh22)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("NTh23", boost::cref(NTh23)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("NTh24", boost::cref(NTh24)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("NTh25", boost::cref(NTh25)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("NTh26", boost::cref(NTh26)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("NTh27", boost::cref(NTh27)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("NTh28", boost::cref(NTh28)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("NTh29", boost::cref(NTh29)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("NTh30", boost::cref(NTh30)));
-    
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("NTh31", boost::cref(NTh31)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("NTh32", boost::cref(NTh32)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("NTh33", boost::cref(NTh33)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("NTh34", boost::cref(NTh34)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("NTh35", boost::cref(NTh35)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("NTh36", boost::cref(NTh36)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("NTh37", boost::cref(NTh37)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("NTh38", boost::cref(NTh38)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("NTh39", boost::cref(NTh39)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("NTh40", boost::cref(NTh40)));
-    
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("NBB", boost::cref(NBB)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("f00", boost::cref(f00)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("BRDst", boost::cref(BRDst)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("BRD", boost::cref(BRD)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("tauB0", boost::cref(tauB0)));
-    
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("eps_el1", boost::cref(eps_el1)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("eps_el2", boost::cref(eps_el2)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("eps_el3", boost::cref(eps_el3)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("eps_el4", boost::cref(eps_el4)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("eps_el5", boost::cref(eps_el5)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("eps_el6", boost::cref(eps_el6)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("eps_el7", boost::cref(eps_el7)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("eps_el8", boost::cref(eps_el8)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("eps_el9", boost::cref(eps_el9)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("eps_el10", boost::cref(eps_el10)));
-    
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("eps_el11", boost::cref(eps_el11)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("eps_el12", boost::cref(eps_el12)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("eps_el13", boost::cref(eps_el13)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("eps_el14", boost::cref(eps_el14)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("eps_el15", boost::cref(eps_el15)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("eps_el16", boost::cref(eps_el16)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("eps_el17", boost::cref(eps_el17)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("eps_el18", boost::cref(eps_el18)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("eps_el19", boost::cref(eps_el19)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("eps_el20", boost::cref(eps_el20)));
-    
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("eps_el21", boost::cref(eps_el21)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("eps_el22", boost::cref(eps_el22)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("eps_el23", boost::cref(eps_el23)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("eps_el24", boost::cref(eps_el24)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("eps_el25", boost::cref(eps_el25)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("eps_el26", boost::cref(eps_el26)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("eps_el27", boost::cref(eps_el27)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("eps_el28", boost::cref(eps_el28)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("eps_el29", boost::cref(eps_el29)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("eps_el30", boost::cref(eps_el30)));
-    
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("eps_el31", boost::cref(eps_el31)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("eps_el32", boost::cref(eps_el32)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("eps_el33", boost::cref(eps_el33)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("eps_el34", boost::cref(eps_el34)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("eps_el35", boost::cref(eps_el35)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("eps_el36", boost::cref(eps_el36)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("eps_el37", boost::cref(eps_el37)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("eps_el38", boost::cref(eps_el38)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("eps_el39", boost::cref(eps_el39)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("eps_el40", boost::cref(eps_el40)));
-    
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("eps_mu1", boost::cref(eps_mu1)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("eps_mu2", boost::cref(eps_mu2)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("eps_mu3", boost::cref(eps_mu3)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("eps_mu4", boost::cref(eps_mu4)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("eps_mu5", boost::cref(eps_mu5)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("eps_mu6", boost::cref(eps_mu6)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("eps_mu7", boost::cref(eps_mu7)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("eps_mu8", boost::cref(eps_mu8)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("eps_mu9", boost::cref(eps_mu9)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("eps_mu10", boost::cref(eps_mu10)));
-    
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("eps_mu11", boost::cref(eps_mu11)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("eps_mu12", boost::cref(eps_mu12)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("eps_mu13", boost::cref(eps_mu13)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("eps_mu14", boost::cref(eps_mu14)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("eps_mu15", boost::cref(eps_mu15)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("eps_mu16", boost::cref(eps_mu16)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("eps_mu17", boost::cref(eps_mu17)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("eps_mu18", boost::cref(eps_mu18)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("eps_mu19", boost::cref(eps_mu19)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("eps_mu20", boost::cref(eps_mu20)));
-    
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("eps_mu21", boost::cref(eps_mu21)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("eps_mu22", boost::cref(eps_mu22)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("eps_mu23", boost::cref(eps_mu23)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("eps_mu24", boost::cref(eps_mu24)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("eps_mu25", boost::cref(eps_mu25)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("eps_mu26", boost::cref(eps_mu26)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("eps_mu27", boost::cref(eps_mu27)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("eps_mu28", boost::cref(eps_mu28)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("eps_mu29", boost::cref(eps_mu29)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("eps_mu30", boost::cref(eps_mu30)));
-    
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("eps_mu31", boost::cref(eps_mu31)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("eps_mu32", boost::cref(eps_mu32)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("eps_mu33", boost::cref(eps_mu33)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("eps_mu34", boost::cref(eps_mu34)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("eps_mu35", boost::cref(eps_mu35)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("eps_mu36", boost::cref(eps_mu36)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("eps_mu37", boost::cref(eps_mu37)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("eps_mu38", boost::cref(eps_mu38)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("eps_mu39", boost::cref(eps_mu39)));
-    ModelParamMap.insert(std::pair<std::string, boost::reference_wrapper<const double> >("eps_mu40", boost::cref(eps_mu40)));
+    ModelParamMap.insert(std::make_pair("NTh1", std::cref(NTh1)));
+    ModelParamMap.insert(std::make_pair("NTh2", std::cref(NTh2)));
+    ModelParamMap.insert(std::make_pair("NTh3", std::cref(NTh3)));
+    ModelParamMap.insert(std::make_pair("NTh4", std::cref(NTh4)));
+    ModelParamMap.insert(std::make_pair("NTh5", std::cref(NTh5)));
+    ModelParamMap.insert(std::make_pair("NTh6", std::cref(NTh6)));
+    ModelParamMap.insert(std::make_pair("NTh7", std::cref(NTh7)));
+    ModelParamMap.insert(std::make_pair("NTh8", std::cref(NTh8)));
+    ModelParamMap.insert(std::make_pair("NTh9", std::cref(NTh9)));
+    ModelParamMap.insert(std::make_pair("NTh10", std::cref(NTh10)));
+
+    ModelParamMap.insert(std::make_pair("NTh11", std::cref(NTh11)));
+    ModelParamMap.insert(std::make_pair("NTh12", std::cref(NTh12)));
+    ModelParamMap.insert(std::make_pair("NTh13", std::cref(NTh13)));
+    ModelParamMap.insert(std::make_pair("NTh14", std::cref(NTh14)));
+    ModelParamMap.insert(std::make_pair("NTh15", std::cref(NTh15)));
+    ModelParamMap.insert(std::make_pair("NTh16", std::cref(NTh16)));
+    ModelParamMap.insert(std::make_pair("NTh17", std::cref(NTh17)));
+    ModelParamMap.insert(std::make_pair("NTh18", std::cref(NTh18)));
+    ModelParamMap.insert(std::make_pair("NTh19", std::cref(NTh19)));
+    ModelParamMap.insert(std::make_pair("NTh20", std::cref(NTh20)));
+
+    ModelParamMap.insert(std::make_pair("NTh21", std::cref(NTh21)));
+    ModelParamMap.insert(std::make_pair("NTh22", std::cref(NTh22)));
+    ModelParamMap.insert(std::make_pair("NTh23", std::cref(NTh23)));
+    ModelParamMap.insert(std::make_pair("NTh24", std::cref(NTh24)));
+    ModelParamMap.insert(std::make_pair("NTh25", std::cref(NTh25)));
+    ModelParamMap.insert(std::make_pair("NTh26", std::cref(NTh26)));
+    ModelParamMap.insert(std::make_pair("NTh27", std::cref(NTh27)));
+    ModelParamMap.insert(std::make_pair("NTh28", std::cref(NTh28)));
+    ModelParamMap.insert(std::make_pair("NTh29", std::cref(NTh29)));
+    ModelParamMap.insert(std::make_pair("NTh30", std::cref(NTh30)));
+
+    ModelParamMap.insert(std::make_pair("NTh31", std::cref(NTh31)));
+    ModelParamMap.insert(std::make_pair("NTh32", std::cref(NTh32)));
+    ModelParamMap.insert(std::make_pair("NTh33", std::cref(NTh33)));
+    ModelParamMap.insert(std::make_pair("NTh34", std::cref(NTh34)));
+    ModelParamMap.insert(std::make_pair("NTh35", std::cref(NTh35)));
+    ModelParamMap.insert(std::make_pair("NTh36", std::cref(NTh36)));
+    ModelParamMap.insert(std::make_pair("NTh37", std::cref(NTh37)));
+    ModelParamMap.insert(std::make_pair("NTh38", std::cref(NTh38)));
+    ModelParamMap.insert(std::make_pair("NTh39", std::cref(NTh39)));
+    ModelParamMap.insert(std::make_pair("NTh40", std::cref(NTh40)));
+
+    ModelParamMap.insert(std::make_pair("NBB", std::cref(NBB)));
+    ModelParamMap.insert(std::make_pair("f00", std::cref(f00)));
+    ModelParamMap.insert(std::make_pair("BRDst", std::cref(BRDst)));
+    ModelParamMap.insert(std::make_pair("BRD", std::cref(BRD)));
+    ModelParamMap.insert(std::make_pair("tauB0", std::cref(tauB0)));
+
+    ModelParamMap.insert(std::make_pair("eps_el1", std::cref(eps_el1)));
+    ModelParamMap.insert(std::make_pair("eps_el2", std::cref(eps_el2)));
+    ModelParamMap.insert(std::make_pair("eps_el3", std::cref(eps_el3)));
+    ModelParamMap.insert(std::make_pair("eps_el4", std::cref(eps_el4)));
+    ModelParamMap.insert(std::make_pair("eps_el5", std::cref(eps_el5)));
+    ModelParamMap.insert(std::make_pair("eps_el6", std::cref(eps_el6)));
+    ModelParamMap.insert(std::make_pair("eps_el7", std::cref(eps_el7)));
+    ModelParamMap.insert(std::make_pair("eps_el8", std::cref(eps_el8)));
+    ModelParamMap.insert(std::make_pair("eps_el9", std::cref(eps_el9)));
+    ModelParamMap.insert(std::make_pair("eps_el10", std::cref(eps_el10)));
+
+    ModelParamMap.insert(std::make_pair("eps_el11", std::cref(eps_el11)));
+    ModelParamMap.insert(std::make_pair("eps_el12", std::cref(eps_el12)));
+    ModelParamMap.insert(std::make_pair("eps_el13", std::cref(eps_el13)));
+    ModelParamMap.insert(std::make_pair("eps_el14", std::cref(eps_el14)));
+    ModelParamMap.insert(std::make_pair("eps_el15", std::cref(eps_el15)));
+    ModelParamMap.insert(std::make_pair("eps_el16", std::cref(eps_el16)));
+    ModelParamMap.insert(std::make_pair("eps_el17", std::cref(eps_el17)));
+    ModelParamMap.insert(std::make_pair("eps_el18", std::cref(eps_el18)));
+    ModelParamMap.insert(std::make_pair("eps_el19", std::cref(eps_el19)));
+    ModelParamMap.insert(std::make_pair("eps_el20", std::cref(eps_el20)));
+
+    ModelParamMap.insert(std::make_pair("eps_el21", std::cref(eps_el21)));
+    ModelParamMap.insert(std::make_pair("eps_el22", std::cref(eps_el22)));
+    ModelParamMap.insert(std::make_pair("eps_el23", std::cref(eps_el23)));
+    ModelParamMap.insert(std::make_pair("eps_el24", std::cref(eps_el24)));
+    ModelParamMap.insert(std::make_pair("eps_el25", std::cref(eps_el25)));
+    ModelParamMap.insert(std::make_pair("eps_el26", std::cref(eps_el26)));
+    ModelParamMap.insert(std::make_pair("eps_el27", std::cref(eps_el27)));
+    ModelParamMap.insert(std::make_pair("eps_el28", std::cref(eps_el28)));
+    ModelParamMap.insert(std::make_pair("eps_el29", std::cref(eps_el29)));
+    ModelParamMap.insert(std::make_pair("eps_el30", std::cref(eps_el30)));
+
+    ModelParamMap.insert(std::make_pair("eps_el31", std::cref(eps_el31)));
+    ModelParamMap.insert(std::make_pair("eps_el32", std::cref(eps_el32)));
+    ModelParamMap.insert(std::make_pair("eps_el33", std::cref(eps_el33)));
+    ModelParamMap.insert(std::make_pair("eps_el34", std::cref(eps_el34)));
+    ModelParamMap.insert(std::make_pair("eps_el35", std::cref(eps_el35)));
+    ModelParamMap.insert(std::make_pair("eps_el36", std::cref(eps_el36)));
+    ModelParamMap.insert(std::make_pair("eps_el37", std::cref(eps_el37)));
+    ModelParamMap.insert(std::make_pair("eps_el38", std::cref(eps_el38)));
+    ModelParamMap.insert(std::make_pair("eps_el39", std::cref(eps_el39)));
+    ModelParamMap.insert(std::make_pair("eps_el40", std::cref(eps_el40)));
+
+    ModelParamMap.insert(std::make_pair("eps_mu1", std::cref(eps_mu1)));
+    ModelParamMap.insert(std::make_pair("eps_mu2", std::cref(eps_mu2)));
+    ModelParamMap.insert(std::make_pair("eps_mu3", std::cref(eps_mu3)));
+    ModelParamMap.insert(std::make_pair("eps_mu4", std::cref(eps_mu4)));
+    ModelParamMap.insert(std::make_pair("eps_mu5", std::cref(eps_mu5)));
+    ModelParamMap.insert(std::make_pair("eps_mu6", std::cref(eps_mu6)));
+    ModelParamMap.insert(std::make_pair("eps_mu7", std::cref(eps_mu7)));
+    ModelParamMap.insert(std::make_pair("eps_mu8", std::cref(eps_mu8)));
+    ModelParamMap.insert(std::make_pair("eps_mu9", std::cref(eps_mu9)));
+    ModelParamMap.insert(std::make_pair("eps_mu10", std::cref(eps_mu10)));
+
+    ModelParamMap.insert(std::make_pair("eps_mu11", std::cref(eps_mu11)));
+    ModelParamMap.insert(std::make_pair("eps_mu12", std::cref(eps_mu12)));
+    ModelParamMap.insert(std::make_pair("eps_mu13", std::cref(eps_mu13)));
+    ModelParamMap.insert(std::make_pair("eps_mu14", std::cref(eps_mu14)));
+    ModelParamMap.insert(std::make_pair("eps_mu15", std::cref(eps_mu15)));
+    ModelParamMap.insert(std::make_pair("eps_mu16", std::cref(eps_mu16)));
+    ModelParamMap.insert(std::make_pair("eps_mu17", std::cref(eps_mu17)));
+    ModelParamMap.insert(std::make_pair("eps_mu18", std::cref(eps_mu18)));
+    ModelParamMap.insert(std::make_pair("eps_mu19", std::cref(eps_mu19)));
+    ModelParamMap.insert(std::make_pair("eps_mu20", std::cref(eps_mu20)));
+
+    ModelParamMap.insert(std::make_pair("eps_mu21", std::cref(eps_mu21)));
+    ModelParamMap.insert(std::make_pair("eps_mu22", std::cref(eps_mu22)));
+    ModelParamMap.insert(std::make_pair("eps_mu23", std::cref(eps_mu23)));
+    ModelParamMap.insert(std::make_pair("eps_mu24", std::cref(eps_mu24)));
+    ModelParamMap.insert(std::make_pair("eps_mu25", std::cref(eps_mu25)));
+    ModelParamMap.insert(std::make_pair("eps_mu26", std::cref(eps_mu26)));
+    ModelParamMap.insert(std::make_pair("eps_mu27", std::cref(eps_mu27)));
+    ModelParamMap.insert(std::make_pair("eps_mu28", std::cref(eps_mu28)));
+    ModelParamMap.insert(std::make_pair("eps_mu29", std::cref(eps_mu29)));
+    ModelParamMap.insert(std::make_pair("eps_mu30", std::cref(eps_mu30)));
+
+    ModelParamMap.insert(std::make_pair("eps_mu31", std::cref(eps_mu31)));
+    ModelParamMap.insert(std::make_pair("eps_mu32", std::cref(eps_mu32)));
+    ModelParamMap.insert(std::make_pair("eps_mu33", std::cref(eps_mu33)));
+    ModelParamMap.insert(std::make_pair("eps_mu34", std::cref(eps_mu34)));
+    ModelParamMap.insert(std::make_pair("eps_mu35", std::cref(eps_mu35)));
+    ModelParamMap.insert(std::make_pair("eps_mu36", std::cref(eps_mu36)));
+    ModelParamMap.insert(std::make_pair("eps_mu37", std::cref(eps_mu37)));
+    ModelParamMap.insert(std::make_pair("eps_mu38", std::cref(eps_mu38)));
+    ModelParamMap.insert(std::make_pair("eps_mu39", std::cref(eps_mu39)));
+    ModelParamMap.insert(std::make_pair("eps_mu40", std::cref(eps_mu40)));
 }
 
 myModel::~myModel()
@@ -179,7 +179,7 @@ bool myModel::InitializeModel()
     setModelInitialized(StandardModel::InitializeModel());
     return(true);
 }
-    
+
 bool myModel::Init(const std::map<std::string, double>& DPars)
 {
     return(StandardModel::Init(DPars));
@@ -194,9 +194,9 @@ bool myModel::PreUpdate()
 
 /* Model update method used be the MCMC to update the model parameters. */
 bool myModel::Update(const std::map<std::string, double>& DPars)
-{    
+{
     if(!PreUpdate()) return (false);
-    
+
     UpdateError = false;
 
     for (std::map<std::string, double>::const_iterator it = DPars.begin(); it != DPars.end(); it++)
@@ -242,7 +242,7 @@ void myModel::setParameter(const std::string name, const double& value)
         NTh9 = value;
     else if(name.compare("NTh10") == 0)
         NTh10 = value;
-        
+
     else if(name.compare("NTh11") == 0)
         NTh11 = value;
     else if(name.compare("NTh12") == 0)
@@ -263,7 +263,7 @@ void myModel::setParameter(const std::string name, const double& value)
         NTh19 = value;
     else if(name.compare("NTh20") == 0)
         NTh20 = value;
-        
+
     else if(name.compare("NTh21") == 0)
         NTh21 = value;
     else if(name.compare("NTh22") == 0)
@@ -284,7 +284,7 @@ void myModel::setParameter(const std::string name, const double& value)
         NTh29 = value;
     else if(name.compare("NTh30") == 0)
         NTh30 = value;
-        
+
     else if(name.compare("NTh31") == 0)
         NTh31 = value;
     else if(name.compare("NTh32") == 0)
@@ -305,7 +305,7 @@ void myModel::setParameter(const std::string name, const double& value)
         NTh39 = value;
     else if(name.compare("NTh40") == 0)
         NTh40 = value;
-        
+
     else if(name.compare("NBB") == 0)
         NBB = value;
     else if(name.compare("f00") == 0)
@@ -316,7 +316,7 @@ void myModel::setParameter(const std::string name, const double& value)
         BRD = value;
     else if(name.compare("tauB0") == 0)
         tauB0 = value;
-        
+
     else if(name.compare("eps_el1") == 0)
         eps_el1 = value;
     else if(name.compare("eps_el2") == 0)
@@ -337,7 +337,7 @@ void myModel::setParameter(const std::string name, const double& value)
         eps_el9 = value;
     else if(name.compare("eps_el10") == 0)
         eps_el10 = value;
-        
+
     else if(name.compare("eps_el11") == 0)
         eps_el11 = value;
     else if(name.compare("eps_el12") == 0)
@@ -358,7 +358,7 @@ void myModel::setParameter(const std::string name, const double& value)
         eps_el19 = value;
     else if(name.compare("eps_el20") == 0)
         eps_el20 = value;
-        
+
     else if(name.compare("eps_el21") == 0)
         eps_el21 = value;
     else if(name.compare("eps_el22") == 0)
@@ -379,7 +379,7 @@ void myModel::setParameter(const std::string name, const double& value)
         eps_el29 = value;
     else if(name.compare("eps_el30") == 0)
         eps_el30 = value;
-        
+
     else if(name.compare("eps_el31") == 0)
         eps_el31 = value;
     else if(name.compare("eps_el32") == 0)
@@ -400,7 +400,7 @@ void myModel::setParameter(const std::string name, const double& value)
         eps_el39 = value;
     else if(name.compare("eps_el40") == 0)
         eps_el40 = value;
-        
+
     else if(name.compare("eps_mu1") == 0)
         eps_mu1 = value;
     else if(name.compare("eps_mu2") == 0)
@@ -421,7 +421,7 @@ void myModel::setParameter(const std::string name, const double& value)
         eps_mu9 = value;
     else if(name.compare("eps_mu10") == 0)
         eps_mu10 = value;
-        
+
     else if(name.compare("eps_mu11") == 0)
         eps_mu11 = value;
     else if(name.compare("eps_mu12") == 0)
@@ -442,7 +442,7 @@ void myModel::setParameter(const std::string name, const double& value)
         eps_mu19 = value;
     else if(name.compare("eps_mu20") == 0)
         eps_mu20 = value;
-        
+
     else if(name.compare("eps_mu21") == 0)
         eps_mu21 = value;
     else if(name.compare("eps_mu22") == 0)
@@ -463,7 +463,7 @@ void myModel::setParameter(const std::string name, const double& value)
         eps_mu29 = value;
     else if(name.compare("eps_mu30") == 0)
         eps_mu30 = value;
-        
+
     else if(name.compare("eps_mu31") == 0)
         eps_mu31 = value;
     else if(name.compare("eps_mu32") == 0)
@@ -484,7 +484,7 @@ void myModel::setParameter(const std::string name, const double& value)
         eps_mu39 = value;
     else if(name.compare("eps_mu40") == 0)
         eps_mu40 = value;
-        
+
     else
         StandardModel::setParameter(name,value);
 }
@@ -505,7 +505,7 @@ bool myModel::CheckParameters(const std::map<std::string, double>& DPars)
 bool myModel::setFlag(const std::string name, const bool value)
 {
     bool res = false;
-    
+
     if(name.compare("condition") == 0){
         condition = value;
         res = true;
