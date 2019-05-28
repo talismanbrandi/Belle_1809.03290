@@ -43,20 +43,14 @@ public:
      * @return returns the Hamiltonian for the \f$ \Delta F = 2 \f$ processes
      *
      */
-    const HeffDF2& getHDF2() const
-    {
-        return *getPtr<HeffDF2>(HDF2);
-    }
+    HeffDF2& getHDF2() const;
 
     /**
      * @brief The member that returns an object of the class HeffDB1.
      * @return returns the Hamiltonian for the \f$ \Delta B = 1 \f$ processes.
      *
      */
-    const HeffDB1& getHDB1() const
-    {
-        return *getPtr<HeffDB1>(HDB1);
-    }
+    HeffDB1& getHDB1() const;
 
     /**
      * @brief Computes the Wilson coefficient for the process \f$ B_d \to \mu \mu \f$.
@@ -280,7 +274,7 @@ private:
     mutable std::map<std::vector<int>, std::shared_ptr<MPll> > MPllMap;
     mutable std::map<std::vector<int>, std::shared_ptr<MPlnu> > MPlnuMap;
     mutable std::map<std::vector<int>, bool> flagUpdateMap;
-    
+
     mutable bool dispersion;
     mutable bool CLNflag;
     mutable bool btocNPpmflag;
